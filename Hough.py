@@ -56,7 +56,7 @@ def superimpose(img, lines, color):
         cv2.line(src, pt1, pt2, color, 2, cv2.LINE_AA)
     return src
 
-def detect_lines(imgPath, threshold, color=(255, 0, 0)):
+def detect_lines(imgPath, threshold,resolution ,color=(255, 0, 0)):
     img = cv2.imread(imgPath) 
     edges = get_edges(img)
     lines = hough_lines(edges, threshold,resolution)
@@ -67,7 +67,7 @@ def detect_lines(imgPath, threshold, color=(255, 0, 0)):
     #  plt.xticks([]), plt.yticks([])
     #  plt.show()
 
-detect_lines('sudoku.png',100)
+# detect_lines('sudoku.png',100)
     
 
 
