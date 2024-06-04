@@ -10,7 +10,7 @@
 - Upper Threshold
 - Lower Threshold
 
- ![alt text](image.png)
+ ![alt text](readmeimages/image.png)
 
  ## Harris Corner_Detection
  Steps:
@@ -28,7 +28,7 @@ window.
  Parameters:
 - Window size
 - Response Threshold
- ![alt text](image-1.png)
+ ![alt text](readmeimages/image-1.png)
  ## Hough Line detection
  Functions:
  - get_edges: Perform edge detection using the Canny edge 
@@ -47,7 +47,7 @@ detector.
 superimpose function.
  Parameters:
 - threshold (number of lines to detect)
- ![alt text](image-2.png)
+ ![alt text](readmeimages/image-2.png)
  ## Hough ellipse detection
   Steps:
 - Convert the input image to grayscale.
@@ -87,8 +87,8 @@ using the scaled parameters.
 
  Parameters:
 - threshold (number of ellipses to detect)
- ![alt text](image-3.png)
- ![alt text](image-4.png)
+ ![alt text](readmeimages/image-3.png)
+ ![alt text](readmeimages/image-4.png)
  ## Eigen faces dimensionallity reduction
  Steps
  Load, preprocess, and organize images:
@@ -117,6 +117,6 @@ Reconstruct images with different numbers of principal components:
 Initialize figure and subplots.
 Display original image.
 Reconstruct and plot images for each value of k components.
- ![alt text](image-5.png)
+ ![alt text](readmeimages/image-5.png)
  ## Face Recognition based on eigen faces
- ![alt text](image-6.png)
+ ![alt text](readmeimages/image-6.png)
